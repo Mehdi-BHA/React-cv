@@ -1,0 +1,154 @@
+.contact{
+    margin-bottom: 50px;
+}
+.form-container{
+    display:flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info{
+    position: relative;
+    left: 100px;
+    width: 400px;
+    height: 360px;
+    background-color: rgb(2, 2, 51);
+    color: white;
+    padding: 50px 30px;
+    padding-top:35px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+.contact-info h2{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.contact-info p{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.fa-phone-alt, .fa-envelope{
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.social{
+    color:rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.social .fab{
+    font-size: 58px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social .fab:hover{
+    color:white
+}
+
+.form{
+    position: relative;
+    left: -100px;
+    border: 1px solid black;
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    padding: 50px 0;
+    padding-left: 200px;
+
+}
+.form h2{
+    font-size: 30px;
+}
+
+.formbox{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+.inputbox{
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.inputbox input{
+    border:none;
+    background: none;
+    width: 250px;                                                                                                   
+    border-bottom: 1px solid black;
+    outline:none;
+    transition: 1s;
+    z-index: 100;
+}
+
+.inputbox textarea{
+    z-index: 100;
+    background: none;
+    border: none;
+    resize: none;
+    width: 500px;
+    height:200px;
+    border-bottom: 1px solid black;
+    outline:none;
+}
+
+.inputbox span{
+    z-index: 1;
+    position: absolute;
+}
+
+.inputbox input:focus ~ span, .inputbox textarea:focus ~ span{
+    transition: .2s;
+    transform: translateY(-30px);
+    color:red;
+    font-size: 14px;
+}
+
+.inputbox input:valid ~ span, .inputbox textarea:valid ~ span{
+    transform: translateY(-30px);
+    color:rgb(8, 99, 68);
+    font-size: 14px;
+}
+
+
+.inputbox input[type="submit"]{
+    box-sizing: content-box;
+    width: 100px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 19px;
+    background-color: rgb(5, 71, 128);
+}
+
+.inputbox input[type="submit"]:active{
+    transition:1s;
+    transform:translateY(-20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

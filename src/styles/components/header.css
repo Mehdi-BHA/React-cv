@@ -1,0 +1,34 @@
+.header{
+    background-image: url('../../media/background.jpg');
+    height:100vh;
+}
+
+
+.bio{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 63%;
+    margin: 0 auto;
+    
+}
+
+.bio p{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.bio p span{
+    font-size: 45px;
+    font-weight:600;
+}
+
+.bio img{
+    width:250px;
+    border-radius: 50%;
+}

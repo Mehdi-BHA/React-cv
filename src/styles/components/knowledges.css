@@ -1,0 +1,96 @@
+.knowledges{
+    margin-top: 30px;
+}
+
+.knowledges img{
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.knowledgeslist{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.knowledgeslist > div {
+    min-width:500px;
+    width: auto;
+    margin-bottom: 40px;
+    padding:  10px 40px;
+    padding-bottom: 50px;
+    background: linear-gradient(45deg,rgba(21, 91, 196, 0.097),rgba(0, 0, 0, 0.13),rgba(204, 82, 25, 0.158));
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.124);
+
+}
+
+.knowledgeslist > div h2{
+    text-align: center;
+    font-size: 38px;
+}
+
+.knowledgeslist > div > div > p{
+    font-size:20px;
+    margin-left:10px;
+
+}
+
+.knowledgeslist > div > div > div{
+    display: flex;
+}
+.progressbar{
+    background: linear-gradient(to left,#F2709C,#c44e2a);
+    margin-left: 5%;
+    height: 15px;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius: 5px;
+    animation: progress 2s;
+}
+
+@keyframes progress{
+    0%{
+        width:0%;
+    }
+}
+
+
+.background-pb{
+    background-color: rgb(172, 172, 172);
+    height: 15px;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    animation: progressback 2s;
+}
+
+@keyframes progressback{
+    0%{
+        width:90%;
+    }
+}
+
+.background-pb div{
+    position: relative;
+    display:flex;
+    align-items: center;
+    position:relative;
+    top: 9px;
+    left:-6px;
+}
+
+.fa-map-marker{
+    transform: rotate(180deg);
+    margin-right:3px;
+}
+
+.challenges p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.fa-code, .fa-free-code-camp{
+    font-size: 30px;
+    margin-right: 5px;
+    transform: translateY(5px)
+}
