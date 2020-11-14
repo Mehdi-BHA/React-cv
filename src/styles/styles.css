@@ -5,6 +5,7 @@
 @import './components/contact';
 @import './components/experience';
 @import './components/portfolio';
+@import 'aos/dist/aos.css';
 
 
 *{

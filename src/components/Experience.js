@@ -19,7 +19,7 @@ export default class experience extends Component {
             
         }
         return (
-            <div className="experience">
+            <div className="experience" data-aos="fade-right">
                 <h1>Expérience</h1>
                 <div className="seperator50"></div>
                 <div className="experience-content">

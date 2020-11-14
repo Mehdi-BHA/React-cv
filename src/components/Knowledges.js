@@ -26,7 +26,7 @@ export default class knowledges extends Component {
     render() {
         let { languages,frameworks,others } = this.state;
         return (
-            <div className="knowledges">
+            <div className="knowledges "data-aos="fade-left">
                 <h1>Compétences</h1>
                 <div className="seperator50"></div>
                 <div className="knowledgeslist">

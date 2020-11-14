@@ -15,7 +15,7 @@ export default class Portfolio extends Component {
         var projects=this.state.projects
         console.log(projects[0])
         return (
-            <div className="portfolio">
+            <div className="portfolio"data-aos="fade-left">
                 <h1>Projets</h1>
                 <div className="seperator50"></div>
                 <div className="projects-list">

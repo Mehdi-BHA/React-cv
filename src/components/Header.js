@@ -10,7 +10,7 @@ const Header = () => {
             <div className="header-image"></div>
             <Navigation></Navigation>
             <div className="bio">
-                <img src={Photo} alt="Logo" />
+                <img src={Photo} alt="Logo"/>
                 <div>
                     <p>Hey, je suis Mehdi Ben Hadj Ali</p>
                     <p><Typical loop={Infinity} wrapper='b' steps={[2000,'je suis développeur Front-End',1000,'je suis développeur Back-End',1000,'je suis développeur Full Stack JS',1000]}></Typical></p>
